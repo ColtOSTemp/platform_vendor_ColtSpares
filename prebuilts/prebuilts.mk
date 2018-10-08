@@ -5,6 +5,7 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 # Prebuilt packages
 PRODUCT_PACKAGES += \
     GalleryGoPrebuilt \
+    WeatherIcons \
     MetroMusicPlayer
 
 PRODUCT_COPY_FILES += \
