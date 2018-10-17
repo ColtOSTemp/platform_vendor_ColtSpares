@@ -1,4 +1,4 @@
-# Copyright (C) 2021 The ColtOS Project
+# Copyright (C) 2020-21 The Project-Xtended
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,18 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
-
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
-
-# Includes accents
-include vendor/ColtSpares/accents/accents.mk
-
-# Includes icon packs/shapes
-include vendor/ColtSpares/icons/icons.mk
-
-# Includes prebuilts
-include vendor/ColtSpares/prebuilts/prebuilts.mk
-
-# Includes qsthemes
-include vendor/ColtSpares/qsthemes/qsthemes.mk
+# QS tile styles
+PRODUCT_PACKAGES += \
+    QStileCircleTrim \
+    QStileDefault \
+    QStileDualToneCircle \
+    QStileSquircleTrim
