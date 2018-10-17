@@ -31,5 +31,9 @@ include vendor/ColtSpares/icons/icons.mk
 # Include Colt Prebuilts
 include vendor/ColtSpares/prebuilts/prebuilts.mk
 
+# Includes qsthemes
+include vendor/ColtSpares/qsthemes/qsthemes.mk
+
 # Includes themes
 include vendor/ColtSpares/themes/themes.mk
+
