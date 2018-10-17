@@ -30,3 +30,6 @@ include vendor/ColtSpares/fonts/fonts.mk
 
 # Includes prebuilts
 include vendor/ColtSpares/prebuilts/prebuilts.mk
+
+# Includes qsthemes
+include vendor/ColtSpares/qsthemes/qsthemes.mk
