@@ -25,6 +25,9 @@ endif
 # Includes accents
 #include vendor/ColtSpares/accents/accents.mk
 
+# Includes cutout shapes
+include vendor/ColtSpares/cutout/cutout.mk
+
 # Fonts
 PRODUCT_PACKAGES += \
     Colt-Fonts
