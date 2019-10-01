@@ -64,6 +64,10 @@ include vendor/ColtSpares/BrightnessSlider/slider.mk
 # Include System-wide Slider Styles
 include vendor/ColtSpares/SliderStyles/sliderstyles.mk
 
+# Custom Icons
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/ColtSpares/customicons
+
 # Switch themes
 PRODUCT_PACKAGES += \
     SwitchAOSP \
