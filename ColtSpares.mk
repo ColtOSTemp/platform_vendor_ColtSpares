@@ -16,5 +16,9 @@ LOCAL_PATH := $(call my-dir)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
+# Copy fonts to system
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ColtSpares/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+
 # Include Colt Prebuilts
 include vendor/ColtSpares/prebuilts/prebuilts.mk
+
