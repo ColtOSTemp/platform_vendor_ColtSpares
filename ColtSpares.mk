@@ -55,6 +55,9 @@ include vendor/ColtSpares/themes/themes.mk
 # Includes Lawnchair
 include vendor/ColtSpares/prebuilt/app/Lawnchair/lawnchair.mk
 
+# Includes gvm
+include vendor/xtras/gvm/gvm.mk
+
 # Switch themes
 PRODUCT_PACKAGES += \
     SwitchAOSP \
