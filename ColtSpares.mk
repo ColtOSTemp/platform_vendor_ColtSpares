@@ -58,6 +58,9 @@ include vendor/ColtSpares/prebuilt/app/Lawnchair/lawnchair.mk
 # Includes gvm
 include vendor/xtras/gvm/gvm.mk
 
+# Include Brightness Slider Styles
+include vendor/xtras/BrightnessSlider/slider.mk
+
 # Switch themes
 PRODUCT_PACKAGES += \
     SwitchAOSP \
