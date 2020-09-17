@@ -5,4 +5,6 @@ PRODUCT_PACKAGES += \
     BrightnessSliderMemeRound \
     BrightnessSliderMemeRoundStroke \
     BrightnessSliderMemeStroke \
-    BrightnessSliderA12
+    BrightnessSliderA12 \
+    BrightnessSliderHalfGradient \
+    BrightnessSliderMiniHalf
