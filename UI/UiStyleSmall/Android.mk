@@ -3,8 +3,8 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_RRO_THEME := UiStyleRectangle
-LOCAL_PACKAGE_NAME := UiStyleRectangle
+LOCAL_RRO_THEME := UiStyleSmall
+LOCAL_PACKAGE_NAME := UiStyleSmall
 LOCAL_SDK_VERSION := current
 LOCAL_CERTIFICATE := platform
 LOCAL_PRODUCT_MODULE := true

@@ -37,8 +37,11 @@ PRODUCT_PACKAGES += \
 
 # UI Styles
 PRODUCT_PACKAGES += \
-    UiStyleDefault \
+    StatusBar-Large \
+    StatusBar-Medium \
+    StatusBar-MediumLarge \
+	UiStyleNoCornerRadius \
     UiStyleRoundLarge \
-    UiStyleRoundMedium \
-    UiStyleNoCornerRadius \
+    UiStyleRoundMedium  \
     UiStyleRectangle \
+    UiStyleSmall
