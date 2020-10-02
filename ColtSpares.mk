@@ -28,7 +28,10 @@ include vendor/ColtSpares/fonts/fonts.mk
 # Includes icon packs/shapes
 include vendor/ColtSpares/icons/icons.mk
 
-# Include Colt Prebuilts
+# Includes navbar
+include vendor/ColtSpares/navbar/navbar.mk
+
+# Include prebuilts
 include vendor/ColtSpares/prebuilts/prebuilts.mk
 
 # Includes qsthemes
