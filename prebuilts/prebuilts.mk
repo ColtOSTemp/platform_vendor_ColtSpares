@@ -8,6 +8,7 @@ PRODUCT_PACKAGES += \
     EnigmaLauncher \
     QPGallery \
     SafetyHubPrebuilt \
+    SoundPickerPrebuilt \
     WeatherIcons
 
 PRODUCT_COPY_FILES += \
