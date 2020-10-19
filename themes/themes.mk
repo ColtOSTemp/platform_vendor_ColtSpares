@@ -12,11 +12,3 @@ PRODUCT_PACKAGES += \
     SystemUIDarkGrayOverlay \
     MaterialOceanSystemOverlay \
     MaterialOceanSystemUIOverlay
-
-# Switch themes
-PRODUCT_PACKAGES += \
-    SwitchOnePlus \
-    SwitchStock \
-    Contained \
-    Retro \
-    Narrow
