@@ -25,8 +25,4 @@ include vendor/ColtSpares/prebuilts/prebuilts.mk
 # Include Colt Themes
 include vendor/ColtSpares/themes/themes.mk
 
-# Misc
-include vendor/ColtSpares/misc.mk
 
-# Plugins
-include packages/apps/Plugins/plugins.mk
