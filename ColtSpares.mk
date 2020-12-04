@@ -42,3 +42,9 @@ include vendor/ColtSpares/switches/switches.mk
 
 # Includes themes
 include vendor/ColtSpares/themes/themes.mk
+
+ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    FodAnimations
+endif
+#End
