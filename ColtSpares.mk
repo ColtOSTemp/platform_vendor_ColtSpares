@@ -16,6 +16,12 @@ LOCAL_PATH := $(call my-dir)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
+# Conditional FOD Animations
+ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    FodAnimations
+endif
+
 # Includes accents
 include vendor/ColtSpares/accents/accents.mk
 
