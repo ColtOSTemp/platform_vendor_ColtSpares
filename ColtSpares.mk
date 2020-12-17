@@ -24,6 +24,7 @@ include vendor/ColtSpares/prebuilts/prebuilts.mk
 
 # Include Colt Themes
 include vendor/ColtSpares/themes/themes.mk
+include vendor/ColtSpares/themes.mk
 
 # Common overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ColtSpares/overlay/common

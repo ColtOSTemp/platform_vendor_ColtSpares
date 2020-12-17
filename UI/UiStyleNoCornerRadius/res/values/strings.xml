@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
  * Copyright (c) 2020, ZenX-OS
@@ -15,11 +16,8 @@
  * limitations under the License.
  */
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.android.systemui.ui.nocornerradius"
-          android:versionCode="1"
-          android:versionName="1.0">
-    <overlay android:targetPackage="android"/>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <application android:label="@string/ui_style_no_corner_radius" android:hasCode="false"/>
-</manifest>
+    <string name="ui_style_no_corner_radius">No Corner radius</string>
+
+</resources>
