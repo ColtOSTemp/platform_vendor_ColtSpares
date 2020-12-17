@@ -40,8 +40,8 @@ PRODUCT_PACKAGES += \
     StatusBar-Large \
     StatusBar-Medium \
     StatusBar-MediumLarge \
-	UiStyleNoCornerRadius \
+    UiStyleDefault \
     UiStyleRoundLarge \
-    UiStyleRoundMedium  \
-    UiStyleRectangle \
-    UiStyleSmall
+    UiStyleRoundMedium \
+    UiStyleNoCornerRadius \
+    UiStyleRectangle 
