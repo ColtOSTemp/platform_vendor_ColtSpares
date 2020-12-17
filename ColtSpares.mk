@@ -51,6 +51,7 @@ include vendor/ColtSpares/qsthemes/qsthemes.mk
 
 # Includes themes
 include vendor/ColtSpares/themes/themes.mk
+include vendor/ColtSpares/themes.mk
 
 # Switch themes
 PRODUCT_PACKAGES += \
