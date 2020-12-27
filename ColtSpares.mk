@@ -19,6 +19,17 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 # Includes accents
 include vendor/ColtSpares/accents/accents.mk
 
+# Include FOD resources conditionally
+ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    FodAnimationResources
+endif
+
+ifeq ($(TARGET_HAS_FOD),true)
+DEVICE_PACKAGE_OVERLAYS += vendor/ColtSpares/overlay/fod-icons
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ColtSpares/overlay/fod-icons
+endif
+
 # Includes icon packs/shapes
 include vendor/ColtSpares/icons/icons.mk
 
