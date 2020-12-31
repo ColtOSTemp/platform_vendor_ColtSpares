@@ -1,3 +1,31 @@
+# Panel Background
+PRODUCT_PACKAGES += \
+    PanelBgBatik \
+    PanelBgKece \
+    PanelBgOutline
+
+# Qs shape
+PRODUCT_PACKAGES += \
+    QsShapeA \
+    QsShapeB \
+    QsShapeC \
+    QsShapeD \
+    QsShapeE \
+    QsShapeF \
+    QsShapeG \
+    QsShapeH \
+    QsShapeI \
+    QsShapeJ \
+    QsShapeK \
+    QsShapeL \
+    QsShapeM \
+    QsShapeN \
+    QsShapeO \
+    QsShapeP \
+    QsShapeQ \
+    QsShapeR \
+    QsShapeS
+
 # Brightness sliders Styles
 PRODUCT_PACKAGES += \
     BrightnessSliderDefault \
@@ -16,5 +44,5 @@ PRODUCT_PACKAGES += \
     UiStyleRoundLarge \
     UiStyleRoundMedium \
     UiStyleNoCornerRadius \
-    UiStyleRectangle 
+    UiStyleRectangle
 
