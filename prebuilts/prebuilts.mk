@@ -8,5 +8,6 @@ PRODUCT_PACKAGES += \
     QPGallery \
     SafetyHubPrebuilt \
     SoundPickerPrebuilt \
+    ThemePicker \
     WeatherIcons
 
