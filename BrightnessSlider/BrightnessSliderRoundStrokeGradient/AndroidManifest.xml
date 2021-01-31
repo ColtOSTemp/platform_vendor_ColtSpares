@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright (c) 2020, ZenX-OS
+ * Copyright (c) 2020, RR
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,10 +15,11 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.android.systemui.brightness.slider.memeroundstrokegradient"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <overlay android:targetPackage="com.android.systemui" android:priority="1"/>
 
-    <dimen name="seek_bar_height">4dp</dimen>
-    <dimen name="seek_bar_corner_radius">4dp</dimen>
-
-
-</resources>
+    <application android:label="@string/brightness_slider_memeroundstroke_title" android:hasCode="false"/>
+</manifest>
