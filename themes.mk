@@ -33,7 +33,14 @@ PRODUCT_PACKAGES += \
     BrightnessSliderMemeMini \
     BrightnessSliderMemeRound \
     BrightnessSliderMemeRoundStroke \
-    BrightnessSliderMemeStroke
+    BrightnessSliderMemeStroke \
+    BrightnessSliderMemeStrokeGradient \
+    BrightnessSliderRoundStrokeGradient \
+    BrightnessSliderRoundGradient \
+    BrightnessSliderMiniGradient \
+    BrightnessSliderHalfGradient \
+    BrightnessSliderMiniHalf \
+    BrightnessSliderFlat
 
 # UI Styles
 PRODUCT_PACKAGES += \

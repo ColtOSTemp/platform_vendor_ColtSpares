@@ -21,5 +21,6 @@ LOCAL_PACKAGE_NAME := BrightnessSliderMemeMini
 LOCAL_SDK_VERSION := current
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := false
+LOCAL_PRODUCT_MODULE := true
 
 include $(BUILD_PACKAGE)

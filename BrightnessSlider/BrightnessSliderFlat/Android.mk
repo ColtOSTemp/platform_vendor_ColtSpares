@@ -1,5 +1,5 @@
 #
-#  Copyright 2020, ZenX-OS
+#  Copyright 2020, RR
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 CAL_MODULE_TAGS := optional
 
-LOCAL_PACKAGE_NAME := BrightnessSliderMemeRound
+LOCAL_PACKAGE_NAME := BrightnessSliderFlat
 LOCAL_SDK_VERSION := current
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := false
