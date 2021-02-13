@@ -12,7 +12,8 @@ PRODUCT_PACKAGES += \
     BrightnessSliderMiniGradient \
     BrightnessSliderHalfGradient \
     BrightnessSliderMiniHalf \
-    BrightnessSliderFlat
+    BrightnessSliderFlat \
+    BrightnessSliderOOS
 
 # UI Styles
 PRODUCT_PACKAGES += \
