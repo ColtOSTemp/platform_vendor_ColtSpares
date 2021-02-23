@@ -18,4 +18,5 @@ PRODUCT_PACKAGES += \
     SwitchContained \
     SwitchTelegram \
     SwitchRetro \
-    SwitchMD2
+    SwitchMD2 \
+    SwitchOOS
