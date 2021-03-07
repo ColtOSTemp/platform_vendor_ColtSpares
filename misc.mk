@@ -1,3 +1,3 @@
 # Misc
 PRODUCT_PACKAGES += \
-    MatchmakerOverlay \
+    MatchmakerOverlay
