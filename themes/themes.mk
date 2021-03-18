@@ -4,6 +4,8 @@ PRODUCT_PACKAGES += \
     PitchBlackSystemUIOverlay \
     SolarizedDarkSystemOverlay \
     SolarizedDarkSystemUIOverlay \
+    SystemDark12Overlay \
+    SystemUIDark12Overlay \
     BakedGreenSystemOverlay \
     BakedGreenSystemUIOverlay \
     ChocoXSystemOverlay \
