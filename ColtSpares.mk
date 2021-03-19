@@ -51,3 +51,11 @@ include vendor/ColtSpares/qsthemes/qsthemes.mk
 
 # Includes themes
 include vendor/ColtSpares/themes/themes.mk
+
+# Switch themes
+PRODUCT_PACKAGES += \
+    SwitchAOSP \
+    SwitchContained \
+    SwitchTelegram \
+    SwitchRetro \
+    SwitchMD2
