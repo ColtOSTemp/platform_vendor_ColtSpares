@@ -34,6 +34,8 @@ include vendor/ColtSpares/prebuilts/prebuilts.mk
 # Includes qsthemes
 include vendor/ColtSpares/qsthemes/qsthemes.mk
 
+# Includes switch
+include vendor/ColtSpares/switches/switches.mk
+
 # Includes themes
 include vendor/ColtSpares/themes/themes.mk
-
