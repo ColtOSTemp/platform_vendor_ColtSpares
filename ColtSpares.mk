@@ -16,5 +16,8 @@ LOCAL_PATH := $(call my-dir)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
-# Include Colt Prebuilts
+# Includes icon packs/shapes
+include vendor/ColtSpares/icons/icons.mk
+
+# Includes prebuilts
 include vendor/ColtSpares/prebuilts/prebuilts.mk
