@@ -22,6 +22,9 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ColtSpares/fonts,$(
 # Includes fonts
 include vendor/ColtSpares/fonts/fonts.mk
 
+# Includes icon packs/shapes
+include vendor/ColtSpares/icons/icons.mk
+
 # Include Colt Prebuilts
 include vendor/ColtSpares/prebuilts/prebuilts.mk
 
