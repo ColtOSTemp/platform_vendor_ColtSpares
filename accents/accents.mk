@@ -1,4 +1,4 @@
-# Copyright (C) 2021 The ColtOS Project
+# Copyright (C) 2020-21 The Project-Xtended
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,21 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
-
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
-
-# Copy fonts to system
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ColtSpares/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
-
-# Includes accents
-include vendor/ColtSpares/accents/accents.mk
-
-# Includes icon packs/shapes
-include vendor/ColtSpares/icons/icons.mk
-
-# Includes fonts
-include vendor/ColtSpares/fonts/fonts.mk
-
-# Includes prebuilts
-include vendor/ColtSpares/prebuilts/prebuilts.mk
+# Acccents
+PRODUCT_PACKAGES += \
+    AccentColorAmethystOverlay \
+    AccentColorAquamarineOverlay \
+    AccentColorBlackOverlay \
+    AccentColorCarbonOverlay \
+    AccentColorCinnamonOverlay \
+    AccentColorGreenOverlay \
+    AccentColorOceanOverlay \
+    AccentColorOrchidOverlay \
+    AccentColorPurpleOverlay \
+    AccentColorPaletteOverlay \
+    AccentColorSandOverlay \
+    AccentColorSpaceOverlay \
+    AccentColorTangerineOverlay
