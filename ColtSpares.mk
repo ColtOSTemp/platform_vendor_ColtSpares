@@ -16,6 +16,9 @@ LOCAL_PATH := $(call my-dir)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
+# Includes accents
+include vendor/ColtSpares/accents/accents.mk
+
 # Copy fonts to system
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/ColtSpares/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
