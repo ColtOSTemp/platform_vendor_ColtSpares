@@ -30,6 +30,10 @@ DEVICE_PACKAGE_OVERLAYS += vendor/ColtSpares/overlay/fod-icons
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/ColtSpares/overlay/fod-icons
 endif
 
+# Fonts
+PRODUCT_PACKAGES += \
+    Colt-Fonts
+
 # Includes icon packs/shapes
 include vendor/ColtSpares/icons/icons.mk
 
