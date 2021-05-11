@@ -25,6 +25,10 @@ endif
 # Includes accents
 include vendor/ColtSpares/accents/accents.mk
 
+# Fonts
+PRODUCT_PACKAGES += \
+    Colt-Fonts
+
 # Includes icon packs/shapes
 include vendor/ColtSpares/icons/icons.mk
 
