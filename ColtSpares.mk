@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
 endif
 
 # Includes accents
-include vendor/ColtSpares/accents/accents.mk
+#include vendor/ColtSpares/accents/accents.mk
 
 # Fonts
 PRODUCT_PACKAGES += \
