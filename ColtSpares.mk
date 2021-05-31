@@ -17,7 +17,7 @@ LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Includes accents
-include vendor/ColtSpares/accents/accents.mk
+# include vendor/ColtSpares/accents/accents.mk
 
 # Include FOD resources conditionally
 ifeq ($(EXTRA_FOD_ANIMATIONS),true)
