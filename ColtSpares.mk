@@ -56,10 +56,13 @@ include vendor/ColtSpares/themes/themes.mk
 include vendor/ColtSpares/prebuilt/app/Lawnchair/lawnchair.mk
 
 # Includes gvm
-include vendor/xtras/gvm/gvm.mk
+include vendor/ColtSpares/gvm/gvm.mk
 
 # Include Brightness Slider Styles
-include vendor/xtras/BrightnessSlider/slider.mk
+include vendor/ColtSpares/BrightnessSlider/slider.mk
+
+# Include System-wide Slider Styles
+include vendor/ColtSpares/SliderStyles/sliderstyles.mk
 
 # Switch themes
 PRODUCT_PACKAGES += \
