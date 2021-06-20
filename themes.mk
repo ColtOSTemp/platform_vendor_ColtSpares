@@ -1,25 +1,5 @@
-# Custum Dark Themes
-PRODUCT_PACKAGES += \
-    SystemDark12Overlay \
-    SystemUIDark12Overlay \
-    SystemRavenBlackOverlay \
-    SystemUIRavenBlackOverlay \
-    SystemDarkGrayOverlay \
-    SystemUIDarkGrayOverlay \
-    SystemStyleOverlay \
-    SystemUIStyleOverlay \
-    SystemNightOverlay \
-    SystemUINightOverlay \
-    SystemMaterialOceanOverlay \
-    SystemUIMaterialOceanOverlay \
-    SystemBakedGreenOverlay \
-    SystemUIBakedGreenOverlay \
-    SystemChocoXOverlay \
-    SystemUIChocoXOverlay \
-    SystemDarkAubergineOverlay \
-    SystemUIDarkAubergineOverlay \
-    SystemClearSpringOverlay \
-    SystemUIClearSpringOverlay
+# ColorBucket
+include vendor/ColtSpares/colorbucket.mk
 
 # Brightness sliders Styles
 PRODUCT_PACKAGES += \
@@ -48,4 +28,4 @@ PRODUCT_PACKAGES += \
     UiStyleRoundLarge \
     UiStyleRoundMedium \
     UiStyleNoCornerRadius \
-    UiStyleRectangle 
+    UiStyleRectangle
