@@ -1,3 +1,6 @@
+# ColorBucket
+include vendor/ColtSpares/colorbucket.mk
+
 # Brightness sliders Styles
 PRODUCT_PACKAGES += \
     BrightnessSliderDefault \
@@ -24,5 +27,5 @@ PRODUCT_PACKAGES += \
     UiStyleRoundLarge \
     UiStyleRoundMedium \
     UiStyleNoCornerRadius \
-    UiStyleRectangle 
+    UiStyleRectangle
 
