@@ -55,6 +55,7 @@ include vendor/ColtSpares/themes/themes.mk
 # Switch themes
 PRODUCT_PACKAGES += \
     SwitchAOSP \
+    SwitchAndroid12 \
     SwitchContained \
     SwitchTelegram \
     SwitchRetro \
