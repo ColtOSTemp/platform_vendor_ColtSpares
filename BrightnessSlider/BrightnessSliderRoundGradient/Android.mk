@@ -16,11 +16,11 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_RRO_THEME := BrightnessSliderMemeRoundStroke
-LOCAL_PACKAGE_NAME := BrightnessSliderMemeRoundStroke
-LOCAL_PRODUCT_MODULE := true
+LOCAL_RRO_THEME := BrightnessSliderRoundGradient
+LOCAL_PACKAGE_NAME := BrightnessSliderRoundGradient
+LOCAL_SDK_VERSION := current
 LOCAL_SRC_FILES := $(call all-subdir-java-files)
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
-LOCAL_SDK_VERSION := current
-include $(BUILD_RRO_PACKAGE)
+LOCAL_PRODUCT_MODULE := true
 
+include $(BUILD_PRO_PACKAGE)

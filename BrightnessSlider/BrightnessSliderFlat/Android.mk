@@ -1,5 +1,5 @@
 #
-#  Copyright 2020, ZenX-OS
+#  Copyright 2020, RR
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,12 +15,12 @@
 #
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
+CAL_MODULE_TAGS := optional
 
-LOCAL_RRO_THEME := BrightnessSliderMemeRoundStroke
-LOCAL_PACKAGE_NAME := BrightnessSliderMemeRoundStroke
-LOCAL_PRODUCT_MODULE := true
-LOCAL_SRC_FILES := $(call all-subdir-java-files)
-LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
+LOCAL_PACKAGE_NAME := BrightnessSliderFlat
 LOCAL_SDK_VERSION := current
-include $(BUILD_RRO_PACKAGE)
+LOCAL_CERTIFICATE := platform
+LOCAL_PRIVILEGED_MODULE := false
+LOCAL_PRODUCT_MODULE := true
 
+include $(BUILD_PACKAGE)

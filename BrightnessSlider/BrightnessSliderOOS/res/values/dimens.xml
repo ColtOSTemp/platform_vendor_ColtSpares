@@ -16,10 +16,9 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
-    <dimen name="seek_bar_height">4dp</dimen>
-    <dimen name="seek_bar_corner_radius">4dp</dimen>
-
+   <dimen name="seek_bar_height">3dp</dimen>
+   <dimen name="seek_bar_corner_radius">3dp</dimen>
 
 </resources>
