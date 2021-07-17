@@ -1,21 +1,25 @@
-# Themes
+# Custum Dark Themes
 PRODUCT_PACKAGES += \
-    ClearSpringSystemOverlay \
-    ClearSpringSystemUIOverlay \
-    PitchBlackSystemOverlay \
-    PitchBlackSystemUIOverlay \
-    SolarizedDarkSystemOverlay \
-    SolarizedDarkSystemUIOverlay \
-    BakedGreenSystemOverlay \
-    BakedGreenSystemUIOverlay \
-    ChocoXSystemOverlay \
-    ChocoXSystemUIOverlay \
-    MaterialOceanSystemOverlay \
-    MaterialOceanSystemUIOverlay \
-    DarkGreySystemOverlay \
-    DarkGreySystemUIOverlay \
     SystemDark12Overlay \
-    SystemUIDark12Overlay
+    SystemUIDark12Overlay \
+    SystemRavenBlackOverlay \
+    SystemUIRavenBlackOverlay \
+    SystemDarkGrayOverlay \
+    SystemUIDarkGrayOverlay \
+    SystemStyleOverlay \
+    SystemUIStyleOverlay \
+    SystemNightOverlay \
+    SystemUINightOverlay \
+    SystemMaterialOceanOverlay \
+    SystemUIMaterialOceanOverlay \
+    SystemBakedGreenOverlay \
+    SystemUIBakedGreenOverlay \
+    SystemChocoXOverlay \
+    SystemUIChocoXOverlay \
+    SystemDarkAubergineOverlay \
+    SystemUIDarkAubergineOverlay \
+    SystemClearSpringOverlay \
+    SystemUIClearSpringOverlay
 
 # Brightness sliders Styles
 PRODUCT_PACKAGES += \
